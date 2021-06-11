@@ -66,14 +66,14 @@ export const burger = {
 
 ///////////////Reviews (MVP)///////////////////
 const reviews = [
-    {name: "Daniela", rating: 5, feedback:"Beautiful atmosphere and wonderful vegan options!"},
-    {name: "Jack", rating: 3, feedback:"A little too hipster for my taste, but the burger was decent, if overpriced"},
-    {name: "Miranda", rating: 4, feedback:"fun trivia and cool vibes"},
-    {name: "Wen", rating: 4.5, feedback:"I don't leave my house often, but when I do, it's for this place. Highly reccomend."},
-    {name: "Brett", rating: 3, feedback: "great selection of snacks and a nice cafe area to get work done during the day."},
-    {name: "Julius", rating: 2, feedback: "I was largely unimpressed by this venue. Nothing special on the menu and too expensive. The atmosphere is polarizing, and not for me, but I think some would like it." },
-    {name: "Lauren", rating: 4, feedback: "Absolutely love that they have karaoke Fridays! Food and drink selection is okay."},
-    {name: "Reyna", rating: 3.5, feedback: ""},
+    {name: "Daniela", rating: 5, recommend:"yes", feedback:"Beautiful atmosphere and wonderful vegan options!"},
+    {name: "Jack", rating: 3, recommend:"no", feedback:"A little too hipster for my taste, but the burger was decent, if overpriced"},
+    {name: "Miranda", rating: 4, recommend:"yes", feedback:"fun trivia and cool vibes"},
+    {name: "Wen", rating: 4.5, recommend:"yes", feedback:"I don't leave my house often, but when I do, it's for this place. Highly reccomend."},
+    {name: "Brett", rating: 3, recommend:"yes", feedback: "great selection of snacks and a nice cafe area to get work done during the day."},
+    {name: "Julius", rating: 2, recommend:"no", feedback: "I was largely unimpressed by this venue. Nothing special on the menu and too expensive. The atmosphere is polarizing, and not for me, but I think some would like it." },
+    {name: "Lauren", rating: 4, recommend:"no", feedback: "Absolutely love that they have karaoke Fridays! Food and drink selection is okay."},
+    {name: "Reyna", rating: 3.5, recommend:"yes", feedback: ""},
 ]
 
 /* 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 Task 3: 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 
@@ -91,14 +91,16 @@ Using the reviews array above do the following: (no function needed)
 */
 
 
+console.log('task 4', reviews);
+
 
 /* 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 Task 5: 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 
 Reyna's feedback is missing! Use what you know to do the following: (no function needed) 
   1. Add this feedback to Reyna's rating - "this place is chill with really cool people, great for getting work done on weekdays"
   2. log the reviews array to the console to check your work
 */
-
-
+reviews.push("this place is chill with really cool people, great for getting work done on weekdays");
+console.log('task 5', reviews);
 
 
 
